@@ -16,7 +16,8 @@ let package = Package(
     targets: [
         .target(
             name: "Monri",
-            dependencies: ["Caishen", "Alamofire"]
+            dependencies: ["Caishen", "Alamofire"],
+            path: "Monri/Classes"
         )
     ]
 )
